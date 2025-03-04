@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/temp1/ws_projetos/lib/postgresql-42.7.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/eclipse/plugins/junit-jupiter-api_5.10.2.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/plugins/junit-jupiter-engine_5.10.2.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/plugins/junit-platform-commons_1.10.2.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/plugins/junit-platform-launcher_1.10.2.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
