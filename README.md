@@ -44,9 +44,9 @@ private static final String PASSWORD = "sua_senha";
 ```
 
 ### 3️⃣ Executar o Programa
-Abra o projeto em sua IDE.
-Compile e execute o arquivo UsuarioServiceTest.java para testar a lógica de CRUD.
-Para rodar o sistema, a classe principal será a do service ou o arquivo de teste.
+- Abra o projeto em sua IDE.
+- Compile e execute o arquivo UsuarioServiceTest.java para testar a lógica de CRUD.
+- Para rodar o sistema, a classe principal será a do service ou o arquivo de teste.
 
 ### 4️⃣ Testar a Persistência em Memória
 Se preferir não usar um banco de dados real, você pode optar pela implementação em memória fornecida pela classe UsuarioDAOMemoria.java, que simula a persistência dos dados sem a necessidade de uma conexão com o banco de dados.
