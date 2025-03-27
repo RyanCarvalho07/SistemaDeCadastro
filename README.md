@@ -44,17 +44,22 @@ private static final String PASSWORD = "sua_senha";
 ```
 
 ### 3️⃣ Executar o Programa
-- Compile e execute a classe `Cadastro.java` para interagir com o sistema via terminal.
+Abra o projeto em sua IDE.
+Compile e execute o arquivo UsuarioServiceTest.java para testar a lógica de CRUD.
+Para rodar o sistema, a classe principal será a do service ou o arquivo de teste.
+
+### 4️⃣ Testar a Persistência em Memória
+Se preferir não usar um banco de dados real, você pode optar pela implementação em memória fornecida pela classe UsuarioDAOMemoria.java, que simula a persistência dos dados sem a necessidade de uma conexão com o banco de dados.
 
 ## Estrutura do Projeto
 ```
 /src
+  ├── app          # Pacote contendo a classe principal (Main)
   ├── dao          # Classes de acesso ao banco de dados (JDBC)
   ├── model        # Classe que representa o modelo de Usuário
   ├── service      # Regra de negócio e validações
   ├── util         # Utilitários como validação e exceções
-  ├── view         # Interface via terminal para interação
-  ├── Main.java    # Classe principal para execução
+  ├── view         # Interface de interaçãocom o usuário no terminal
 ```
 
 ## Melhorias Futuras
