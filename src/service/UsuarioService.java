@@ -20,7 +20,7 @@ public class UsuarioService {
 			return true;
 		}
 
-	public List<Usuario> listarUsusario() {
+	public List<Usuario> listarUsuario() {
 		return usuarioDAO.listarUsuarios();
 	}
 	
