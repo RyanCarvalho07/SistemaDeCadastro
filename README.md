@@ -4,12 +4,12 @@
 Este é um sistema de cadastro de usuários desenvolvido em **Java 17**, utilizando **JDBC** para interagir com um banco de dados **PostgreSQL**. O projeto segue o padrão **MVC (Model-View-Controller)** para uma melhor organização do código.
 
 ## Funcionalidades
-- 📌 **Cadastro de Usuários** com validação de dados
-- 📋 **Listagem** de todos os usuários cadastrados
-- 🔍 **Busca de Usuário** por nome
-- ✏️ **Atualização** de dados do usuário
-- ❌ **Remoção** de usuários por ID
-- 🛠️ **Tratamento de erros e exceções**
+-  **Cadastro de Usuários** com validação de dados
+-  **Listagem** de todos os usuários cadastrados
+-  **Busca de Usuário** por nome
+-  **Atualização** de dados do usuário
+-  **Remoção** de usuários por ID
+-  **Tratamento de erros e exceções**
 
 ## Tecnologias Utilizadas
 - **Java 17**
@@ -18,7 +18,7 @@ Este é um sistema de cadastro de usuários desenvolvido em **Java 17**, utiliza
 - **Padrão MVC**
 
 ## Como Executar o Projeto
-### 1️⃣ Configurar o Banco de Dados
+### Configurar o Banco de Dados
 Certifique-se de que o PostgreSQL está instalado e rodando na sua máquina. Crie o banco de dados e a tabela necessária:
 
 ```sql
@@ -34,7 +34,7 @@ CREATE TABLE usuarios (
 );
 ```
 
-### 2️⃣ Configurar as Credenciais de Acesso
+### Configurar as Credenciais de Acesso
 No arquivo `Conexao.java`, altere as credenciais para corresponder à sua configuração:
 
 ```java
@@ -43,12 +43,12 @@ private static final String USER = "seu_usuario";
 private static final String PASSWORD = "sua_senha";
 ```
 
-### 3️⃣ Executar o Programa
+### Executar o Programa
 - Abra o projeto em sua IDE.
 - Compile e execute o arquivo UsuarioServiceTest.java para testar a lógica de CRUD.
 - Para rodar o sistema, a classe principal será a do service ou o arquivo de teste.
 
-### 4️⃣ Testar a Persistência em Memória
+### Testar a Persistência em Memória
 Se preferir não usar um banco de dados real, você pode optar pela implementação em memória fornecida pela classe UsuarioDAOMemoria.java, que simula a persistência dos dados sem a necessidade de uma conexão com o banco de dados.
 
 ## Estrutura do Projeto
@@ -63,10 +63,10 @@ Se preferir não usar um banco de dados real, você pode optar pela implementaç
 ```
 
 ## Melhorias Futuras
-- 🔐 Implementar autenticação de usuário
-- 🖥️ Criar interface gráfica (Swing, JavaFX ou Web)
-- 🔄 Implementar logs para auditoria
-- ✅ Criar testes automatizados (JUnit)
+-  Implementar autenticação de usuário
+-  Criar interface gráfica (Swing, JavaFX ou Web)
+-  Implementar logs para auditoria
+-  Criar testes automatizados (JUnit)
 
 ---
 Feito por **Ryan** 🚀
