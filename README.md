@@ -69,7 +69,7 @@ Se preferir não usar um banco de dados real, você pode optar pela implementaç
 -  Criar testes automatizados (JUnit)
 
 ---
-Feito por **Ryan** 🚀
+Feito por **Ryan** 
 
 
 ## Autores
