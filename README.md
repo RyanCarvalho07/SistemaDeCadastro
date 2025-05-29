@@ -59,7 +59,7 @@ Se preferir não usar um banco de dados real, você pode optar pela implementaç
   ├── model        # Classe que representa o modelo de Usuário
   ├── service      # Regra de negócio e validações
   ├── util         # Utilitários como validação e exceções
-  ├── view         # Interface de interaçãocom o usuário no terminal
+  ├── view         # Interface de interação com o usuário no terminal
 ```
 
 ## Melhorias Futuras
